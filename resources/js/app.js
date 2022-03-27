@@ -4,7 +4,6 @@ import { createApp } from 'vue';
 import router from './router';
 
 import App from './pages/App.vue';
-import Home from './pages/Home.vue';
 
 const app = createApp({
     data(){
@@ -14,7 +13,6 @@ const app = createApp({
     },
     components: {
         App,
-        Home
     }
 })
 app.use(router).mount('#app')

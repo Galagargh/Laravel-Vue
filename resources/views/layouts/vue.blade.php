@@ -403,10 +403,10 @@
         }
     </style>
 </head>
-    <body class="antialiased">
+    <body class="antialiased bg-gray-100">
     <div id="app">
 
-        <router-view/>
+        <app></app>
 
     </div>
     </body>
