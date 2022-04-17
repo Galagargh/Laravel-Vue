@@ -19,3 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('cars', [\App\Http\Controllers\Api\CarController::class, 'index']);
+
+Route::get('skills', function () {
+    return['Laravel', 'Vue', 'PHP', 'Javascript'];
+});

@@ -10,6 +10,9 @@
 
             <router-link :to="{ name: 'Dealerships' }" class="self-center px-6 py-1 bg-gray-200 hover:bg-blue-200 mr-2 transition-all duration-150 rounded-full"
             >Dealerships</router-link>
+
+            <router-link :to="{ name: 'Axios' }" class="self-center px-6 py-1 bg-gray-200 hover:bg-blue-200 mr-2 transition-all duration-150 rounded-full"
+            >Axios</router-link>
         </div>
     </nav>
 
