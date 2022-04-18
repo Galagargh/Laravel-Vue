@@ -1,4 +1,3 @@
-
 // One form of writing an arrow function
 let count = (count) => {
     return count + 100

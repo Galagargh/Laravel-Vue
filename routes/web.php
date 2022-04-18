@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{any}', function () {
-    return view('layouts.vue');
-})->where('any', '.*');;
+// for Vue routing
+//Route::get('/{any}', function () {
+//    return view('layouts.vue');
+//})->where('any', '.*');
+
+Route::get('/{any}', [ProjectController::class, 'create']);
 
 
